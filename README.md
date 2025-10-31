@@ -1,4 +1,3 @@
-# ML-LABR
 * Automatización Mercado Libre - PlayStation 5 - LABR
 
 Proyecto de automatización de pruebas para búsqueda de PlayStation 5 en Mercado Libre México usando **CodeceptJS** y **Playwright**.
