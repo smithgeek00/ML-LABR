@@ -1,0 +1,11 @@
+{
+  "name": "ml",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "codeceptjs run --steps"
+  },
+  "devDependencies": {
+    "codeceptjs": "^3.5.15",
+    "playwright": "^1.40.0"
+  }
+}
