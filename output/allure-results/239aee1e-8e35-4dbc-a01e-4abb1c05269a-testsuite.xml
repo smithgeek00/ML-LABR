@@ -1,0 +1,223 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1761932546486' stop='1761932580006'>
+    <name>Buscar PlayStation 5 en Mercado Libre:</name>
+    <title>Buscar PlayStation 5 en Mercado Libre:</title>
+    <test-cases>
+        <test-case start='1761932546887' status='passed' stop='1761932579819'>
+            <name>Buscar y filtrar PlayStation 5</name>
+            <title>Buscar y filtrar PlayStation 5</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1761932547633' status='passed' stop='1761932548706'>
+                    <name>I am on page "https://www.mercadolibre.com"</name>
+                    <title>I am on page "https://www.mercadolibre.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932548710' status='passed' stop='1761932550715'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932550716' status='passed' stop='1761932550890'>
+                    <name>I save screenshot "01_inicio.png"</name>
+                    <title>I save screenshot "01_inicio.png"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932550890' status='passed' stop='1761932550911'>
+                    <name>I wait for text "México", 5</name>
+                    <title>I wait for text "México", 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932550919' status='passed' stop='1761932552112'>
+                    <name>I click "text=México"</name>
+                    <title>I click "text=México"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932552113' status='passed' stop='1761932553741'>
+                    <name>I save screenshot "02_mx.png"</name>
+                    <title>I save screenshot "02_mx.png"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932553741' status='passed' stop='1761932554410'>
+                    <name>I fill field "#cb1-edit", "playstation 5"</name>
+                    <title>I fill field "#cb1-edit", "playstation 5"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932554410' status='passed' stop='1761932557885'>
+                    <name>I click "button[type="submit"]"</name>
+                    <title>I click "button[type="submit"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932557885' status='passed' stop='1761932560889'>
+                    <name>I wait 3</name>
+                    <title>I wait 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932560890' status='passed' stop='1761932561204'>
+                    <name>I save screenshot "03_busqueda.png"</name>
+                    <title>I save screenshot "03_busqueda.png"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932561205' status='passed' stop='1761932561208'>
+                    <name>I execute script () => window.scrollBy(0, 400)</name>
+                    <title>I execute script () => window.scrollBy(0, 400)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932561209' status='passed' stop='1761932562294'>
+                    <name>I click "//span[text()="Nuevo"]"</name>
+                    <title>I click "//span[text()="Nuevo"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932562294' status='passed' stop='1761932565311'>
+                    <name>I wait 3</name>
+                    <title>I wait 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932565312' status='passed' stop='1761932565536'>
+                    <name>I save screenshot "04_filtro_nuevo.png"</name>
+                    <title>I save screenshot "04_filtro_nuevo.png"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932565537' status='passed' stop='1761932565844'>
+                    <name>I scroll to "//h3[contains(text(),"Origen del envío")]"</name>
+                    <title>I scroll to "//h3[contains(text(),"Origen del envío")]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932565845' status='passed' stop='1761932566855'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932566856' status='passed' stop='1761932567804'>
+                    <name>I click "//span[contains(text(),"Local")]"</name>
+                    <title>I click "//span[contains(text(),"Local")]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932567804' status='passed' stop='1761932570808'>
+                    <name>I wait 3</name>
+                    <title>I wait 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932570809' status='passed' stop='1761932571037'>
+                    <name>I save screenshot "05_filtro_cdmx.png"</name>
+                    <title>I save screenshot "05_filtro_cdmx.png"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932571038' status='passed' stop='1761932571041'>
+                    <name>I scroll page to top</name>
+                    <title>I scroll page to top</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932571041' status='passed' stop='1761932572054'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932572055' status='passed' stop='1761932572289'>
+                    <name>I click "//span[contains(text(),"Más relevantes")]"</name>
+                    <title>I click "//span[contains(text(),"Más relevantes")]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932572289' status='passed' stop='1761932573302'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932573303' status='passed' stop='1761932574221'>
+                    <name>I click "//span[contains(text(),"Mayor precio")]"</name>
+                    <title>I click "//span[contains(text(),"Mayor precio")]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932574222' status='passed' stop='1761932577228'>
+                    <name>I wait 3</name>
+                    <title>I wait 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932577228' status='passed' stop='1761932577443'>
+                    <name>I save screenshot "06_ordenado.png"</name>
+                    <title>I save screenshot "06_ordenado.png"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932577444' status='passed' stop='1761932579451'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932579452' status='passed' stop='1761932579613'>
+                    <name>I grab text from all "//a[@class="poly-component__title"]"</name>
+                    <title>I grab text from all "//a[@class="poly-component__title"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932579614' status='passed' stop='1761932579617'>
+                    <name>I grab text from "(//span[@class="andes-money-amount__fraction"])[1]"</name>
+                    <title>I grab text from "(//span[@class="andes-money-amount__fraction"])[1]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932579618' status='passed' stop='1761932579620'>
+                    <name>I grab text from "(//span[@class="andes-money-amount__fraction"])[2]"</name>
+                    <title>I grab text from "(//span[@class="andes-money-amount__fraction"])[2]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932579621' status='passed' stop='1761932579625'>
+                    <name>I grab text from "(//span[@class="andes-money-amount__fraction"])[3]"</name>
+                    <title>I grab text from "(//span[@class="andes-money-amount__fraction"])[3]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932579626' status='passed' stop='1761932579630'>
+                    <name>I grab text from "(//span[@class="andes-money-amount__fraction"])[4]"</name>
+                    <title>I grab text from "(//span[@class="andes-money-amount__fraction"])[4]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932579630' status='passed' stop='1761932579633'>
+                    <name>I grab text from "(//span[@class="andes-money-amount__fraction"])[5]"</name>
+                    <title>I grab text from "(//span[@class="andes-money-amount__fraction"])[5]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761932579637' status='passed' stop='1761932579818'>
+                    <name>I save screenshot "07_productos.png"</name>
+                    <title>I save screenshot "07_productos.png"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

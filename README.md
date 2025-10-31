@@ -1,7 +1,7 @@
 * Automatización Mercado Libre - PlayStation 5 - LABR
 
-Proyecto de automatización de pruebas para búsqueda de PlayStation 5 en Mercado Libre México usando **CodeceptJS** y **Playwright**.
-
+Proyecto de automatización de pruebas para búsqueda de PlayStation 5 en Mercado Libre México usando **CodeceptJS** , **Playwright** Y reporte con **Allure**
+ 
 ** Descripción
 
 Este proyecto automatiza el siguiente flujo:
@@ -15,19 +15,23 @@ Este proyecto automatiza el siguiente flujo:
 7. Obtener los primeros 5 productos con sus precios
 8. Imprimir resultados en consola
 9. Generar screenshots de cada paso
+10. Genera reporte con allure
 
 ## Tecnologías
 
 - **CodeceptJS** v3.7.5
 - **Playwright** (Chromium)
 - **Node.js** v18+
+- **Allure** 
 
 ** Estructura del Proyecto
 -
 ML-LABR/
 ├── tests/
 │   └── buscar_playstation_test.js     # Test principal
-├── output/                            # Screenshots generados
+├── output/ 
+output/allure-report
+output/allure-results                      # Screenshots generados y reporte
 ├── codecept.conf.js                   # Configuración
 ├── package.json                       # Dependencias
 └── README.md                          # Instrucciones
@@ -42,7 +46,7 @@ ML-LABR/
 
 1. **Clonar el repositorio**
 ---bash
-git clone [URL_DE_TU_REPOSITORIO]
+git clone https://github.com/smithgeek00/ML-LABR.git
 cd ML-LABR
 ---
 
@@ -69,6 +73,13 @@ npx codeceptjs run --steps --verbose
 ---
 
 ** Resultados **
+
+### Ejecutar Reporte (allure)
+
+$ npx allure generate output/allure-results --clean -o output/allure-report
+Report successfully generated to output\allure-report
+
+$ npx allure open output/allure-report
 
 ### Consola
 
@@ -104,7 +115,9 @@ Los screenshots se guardan automáticamente en la carpeta `output/`:
 *- Screenshots automáticos en cada paso  
 *- Reportes en consola con formato  
 *- Manejo de esperas explícitas  
-*- Código limpio y comentado  
+*- Código limpio y comentado
+*- Reporte final con allure 
+
 
 ##  Notas
 
